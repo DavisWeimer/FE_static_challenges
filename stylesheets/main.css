@@ -1,0 +1,91 @@
+main {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15;
+  padding: 30px;
+
+}
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45;
+  color: aliceblue;
+  background-color: rgb(193, 13, 13);
+  padding: 30px;
+}
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15;
+  color: aliceblue;
+  text-align: right;
+  
+  background-color: rgb(48, 48, 48);
+  padding: 10px;
+}
+
+.linkedListLOL{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  text-align: right;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.picturesOfDenverandLondon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-align: left;
+  font-size: large;
+  padding: 30px;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15;
+  color: aliceblue;
+  background-color: rgb(48, 48, 48);
+  padding: 30px;
+}
+
+.link {
+  
+  color: aliceblue;
+  text-align: right;
+}
+
+/* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
